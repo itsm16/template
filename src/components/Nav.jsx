@@ -11,11 +11,11 @@ function Nav() {
       <Link to='/' >React</Link>
     </h1>
     </div>
-    <div className='flex h-12 self-center px-5  rounded-full space-x-2 border-2 border-black opacity-90'>
-      <SearchIcon className='h-5 w-5 self-center'/>
+    <div className='flex h-12 self-center px-5  rounded-full space-x-2 border-2 border-white opacity-90'>
+      <SearchIcon className='h-5 w-5 self-center' style={{color: 'white'}}/>
       <input placeholder='Search...' className=" placeholder-white-400 m-2 h-8 w-25 self-center text-white focus: placeholder-opacity-40 bg-black outline-none" type="text" />
     </div>
-    <div className='flex text-black'>
+    <div className='flex text-white'>
     <ul className='flex space-x-4 px-2 self-center'>
   
         <li className='hover:underline' >
