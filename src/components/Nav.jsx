@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Nav() {
   return (
@@ -7,14 +7,14 @@ function Nav() {
     <div className="flex text-white">
       <img className="m-2 w-12 h-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="logo" />
     <h1 className="self-center mx-2 text-xl text-white font-semibold">
-      <Link to='/' >React</Link>
+      <NavLink to='' >React</NavLink>
     </h1>
     </div>
     <div className='flex text-white'>
     <ul className='flex space-x-4 px-2 self-center'>
   
         <li className='hover:underline' >
-            <Link to="/docs" >Docs</Link>
+            <NavLink to="/docs" >Docs</NavLink>
         </li>
     </ul>
     </div>
